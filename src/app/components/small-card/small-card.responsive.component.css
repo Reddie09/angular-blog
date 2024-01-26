@@ -1,0 +1,24 @@
+@media screen and (max-width:320px){
+    .container__small-card{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .container__small-card{
+        width: 220px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .container__small-card{
+        width: 280px;
+    }
+    .container__small-card-content{
+        flex-direction: column;
+    }.small-card__img > img{
+        width: 100%;
+        min-width: none;
+        margin: 0;
+    }
+}
