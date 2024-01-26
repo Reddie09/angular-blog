@@ -1,0 +1,23 @@
+.container__content{
+    margin-top: 3px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content__cover > img{
+    width: 700px;
+    height: 400px;
+}
+.content__title > h1{
+    font-size: 2.75rem;
+}
+.content__description{
+    width: 700px;
+}
+.content__description > p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #999999;
+}

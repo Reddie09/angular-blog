@@ -4,7 +4,7 @@
             <img src="{{photoCover}}" alt="">
         </div>
         <div class="small-card__title">
-            <a href="#">{{cardTitle}}</a>
+            <a [routerLink]="['content', contentId]">{{cardTitle}}</a>
         </div>
     </div>
     <div class="small-card__separator">
